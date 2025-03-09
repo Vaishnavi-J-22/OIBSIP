@@ -4,7 +4,6 @@ def getWeight():
     weight=float(input("Please Enter your weight in pounds :   "))
     return weight
 
-
 def getHeight():
     inputheight=input("please Enter your height in feet and inches(ex: 5'8\"):   ")
     splitinput=inputheight.split("'")
